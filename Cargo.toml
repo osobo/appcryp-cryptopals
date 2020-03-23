@@ -1,0 +1,94 @@
+[package]
+name = "cryptopals"
+version = "0.1.0"
+authors = ["olle"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#[[bin]]
+#name = "set1"
+#path = "src/main.rs"
+
+# See
+# https://stackoverflow.com/questions/20922091/how-do-you-use-parent-module-imports-in-rust#20933234
+[[bin]]
+name = "set1-ch1"
+path = "src/set1/challenge1.rs"
+[[bin]]
+name = "set1-ch2"
+path = "src/set1/challenge2.rs"
+[[bin]]
+name = "set1-ch3"
+path = "src/set1/challenge3.rs"
+[[bin]]
+name = "set1-ch4"
+path = "src/set1/challenge4.rs"
+[[bin]]
+name = "set1-ch5"
+path = "src/set1/challenge5.rs"
+[[bin]]
+name = "set1-ch6"
+path = "src/set1/challenge6.rs"
+[[bin]]
+name = "set1-ch7"
+path = "src/set1/challenge7.rs"
+[[bin]]
+name = "set1-ch8"
+path = "src/set1/challenge8.rs"
+[[bin]]
+name = "set2-ch9"
+path = "src/set2/challenge9.rs"
+[[bin]]
+name = "set2-ch10"
+path = "src/set2/challenge10.rs"
+[[bin]]
+name = "set2-ch11"
+path = "src/set2/challenge11.rs"
+[[bin]]
+name = "set2-ch12"
+path = "src/set2/challenge12.rs"
+[[bin]]
+name = "set2-ch13"
+path = "src/set2/challenge13.rs"
+[[bin]]
+name = "set2-ch14"
+path = "src/set2/challenge14.rs"
+[[bin]]
+name = "set2-ch15"
+path = "src/set2/challenge15.rs"
+[[bin]]
+name = "set2-ch16"
+path = "src/set2/challenge16.rs"
+[[bin]]
+name = "set3-ch17"
+path = "src/set3/challenge17.rs"
+[[bin]]
+name = "set3-ch18"
+path = "src/set3/challenge18.rs"
+[[bin]]
+name = "set3-ch19"
+path = "src/set3/challenge19.rs"
+[[bin]]
+name = "set3-ch20"
+path = "src/set3/challenge20.rs"
+[[bin]]
+name = "set3-ch21"
+path = "src/set3/challenge21.rs"
+[[bin]]
+name = "set3-ch22"
+path = "src/set3/challenge22.rs"
+[[bin]]
+name = "set3-ch23"
+path = "src/set3/challenge23.rs"
+[[bin]]
+name = "set3-ch24"
+path = "src/set3/challenge24.rs"
+
+[dependencies]
+base64 = "0.11.0"
+hex = "0.4.0"
+lazy_static = "1.4.0"
+rand = "0.7.3"
+rayon = "1.3.0"

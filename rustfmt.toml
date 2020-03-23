@@ -1,0 +1,8 @@
+max_width = 80
+comment_width = 80
+wrap_comments = true
+# Not stable, might have problems?
+overflow_delimited_expr = true
+# Not stable, might have problems?
+format_strings = true
+edition = '2018'
